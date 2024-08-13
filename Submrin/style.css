@@ -1,0 +1,353 @@
+body{
+    
+    background-image: url('back.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.main{
+    position: relative;
+    background-color: #006666;
+    
+}
+.big{
+    background-color: rgb(224, 75, 75);
+    height: 160px;
+    width:310px;
+    position: absolute;
+    border-radius: 78px;
+    margin-top: 225px;
+    margin-left: 500px;
+}
+.leftb{
+    background-color: rgb(224, 75, 75);
+    height: 160px;
+    width:70px;
+    position: absolute;
+    border-radius: 31px;
+    margin-top: 225px;
+    margin-left: 440px;
+}
+.box{
+    height: 25px;
+    width: 35px;
+    background-color: tomato;
+    margin: 10px;
+    margin-left: 15px;
+    margin-top: 18px;
+    animation:updown 0.5s ;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+    @keyframes updown {
+        from{
+            transform: translateY(-10px);
+
+        }
+        to{
+            transform: translateY(20px);
+        }
+    }
+.blue{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(13, 13, 77);
+    border-radius: 40px;
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 690px;
+}
+
+.in{
+    height: 60px;
+    width: 60px;
+    background-color:white;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+.inb{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(13, 13, 77);
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+.tri{
+    
+   
+         position: absolute;
+    margin-top: 340px;
+    margin-left: 775px;
+    width: 39px;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 186px solid whitesmoke;
+    transform: rotate(-48deg);
+    z-index: 3;
+  
+
+
+    
+}
+
+.upd{
+    background-color: rgb(224, 75, 75);
+    height:80px;
+    width:180px;
+    position: absolute;
+    border-radius: 38px;
+    margin-top: 175px;
+    margin-left: 560px;
+}
+.drakr{
+    background-color: rgb(228, 44, 44);
+    height:40px;
+    width:145px;
+    position: absolute;
+    border-radius: 48px;
+    margin-top: 185px;
+    margin-left: 578px;
+}
+.cir{
+    background-color: gray;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    margin-top: 6px;
+    margin-left: 13px;
+    animation: glow 0.5s;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+
+    from{
+        background-color: gray;
+    }
+    
+    to{
+        background-color: white;
+    }
+}
+
+
+
+.uv{
+    background-color: rgb(224, 75, 75);
+    height:60px;
+    width:24px;
+    position: absolute;
+    
+    margin-top: 125px;
+    margin-left: 660px;
+}
+.uh{
+    background-color: rgb(224, 75, 75);
+    height:24px;
+    width:54px;
+    position: absolute;
+    z-index: 2;
+    
+    margin-top: 125px;
+    margin-left: 660px;
+}
+
+.mis{
+
+    background-color:rgb(74, 71, 71);
+    height:18px;
+    width:40px;
+    position: absolute;
+    border-radius:12px ;
+    margin-top: 127.5px;
+    margin-left: 670px;
+}
+.miste{
+     background-color: rgb(74, 71, 71);
+    height:23px;
+    width:15px;
+    position: absolute;
+    border-radius:12px ;
+    margin-top: 125.5px;
+    margin-left: 662px;
+
+    
+}
+.misail{
+
+    animation: lonch 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes lonch {
+
+        from{
+            transform: translateX(0px);
+        }
+        to{           
+             transform: translateX(250px);
+            
+        }
+}
+.bor{
+    background-color: rgb(224, 75, 75);
+    height:40px;
+    width:65px;
+    position: absolute;
+    border-radius: 38px;
+    margin-top: 340px;
+    margin-left: 760px;
+    transform: rotate(-47deg);
+}
+/* .new{
+    height: 155px;
+    width:  155px;
+    border-radius: 50%;
+    background-color: rgb(40, 40, 122);
+   
+    float: left;
+    display: block;
+
+
+    background-image:
+    linear-gradient(20deg, transparent 50%, white 50%),
+    linear-gradient(60deg, white 50%, transparent 50%) ;
+
+} */
+.wheel{
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    border: solid 8px red; 
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 560px;
+}
+.tam{
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    background-color: tomato;
+    position: absolute;
+    animation: ghum 0.5s;
+   animation-duration:0.5s ;
+   animation-iteration-count:infinite ;
+}
+@keyframes ghum{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{transform: rotate(360deg);}
+    
+}
+.wh{
+    height: 55px;
+    width: 17px;
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    border-radius: 3px;
+}
+.fwh{
+    height: 17px;
+    width: 55px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 2px;
+}
+.gola{
+    border: solid 10px  #008080
+    ;
+    
+    overflow: hidden;
+    height: 598px;
+    width: 598px;
+    border-radius: 50%;
+    margin-left: 330px;
+    position: absolute;
+    background-color: transparent;
+
+ ;
+}
+
+.smc{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:#006666;;
+    position: absolute;
+    top: 516px;
+    left: 856px;
+    animation: most 5s;
+    animation-iteration-count: infinite;
+}
+.sw{
+    top: 416px;
+    left: 936px;
+    animation-delay: 1s;
+}
+.th{
+    top: 396px;
+    left: 936px;
+    animation-delay: 2s;
+}
+
+@keyframes most {
+ 
+        0%{
+            transform: translateX(0px);
+        }
+        25%{
+            transform: translateX(70px);
+        }
+        50%{
+            transform: translateY(40px);
+        }
+        75%{
+            transform: translateY(20px);
+        }
+        100%{
+            transform: translateX(-600px);
+        }
+}.point {
+    animation: movr 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes movr {
+
+    0% {
+        transform: rotate(10deg);
+    }
+
+    25% {
+        transform: rotate(4deg);
+    }
+
+    50% {
+        transform: translateY(-60px);
+    }
+
+    100% {
+        transform: translateY(15px);
+    }
+}
+.submarin{
+    position: absolute;
+        margin-left: -320px;
+}
